@@ -26,6 +26,18 @@
   flex-direction: column;
 }
 
+.orientation {
+  display: flex;
+}
+
+.our-campus {
+  display: flex;
+}
+
+.guest {
+  display: flex;
+}
+
 /* courses */
 .course-container {
 
@@ -46,6 +58,63 @@
 
 
 /*thesis*/
+.thesis-container {
+  display: flex;
 
+}
+.left-column {
+  width: 50%;
+}
+
+
+.left-column video {
+  max-width: 90%;
+}
+
+
+.left-column p {
+  max-width: 90%;
+}
+
+.right-column {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+
+}
+
+.fisma {
+  display: flex;
+  padding: 16px;
+}
+
+.fisma img {
+
+}
+
+.fisma-txt {
+  padding-left: 16px;
+}
+
+.newyork {
+  display: flex;
+  padding: 16px;
+}
+
+.newyork-txt {
+  padding-left: 16px;
+}
 
 /* footer */
+.footer-container {
+  display: flex;
+  margin: 16px 24px;
+}
+
+.terms {
+
+}
+
+.terms span {
+
+}
