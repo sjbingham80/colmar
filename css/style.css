@@ -64,7 +64,8 @@ ul li {
   color: white;
   padding-top: 8px;
   padding-bottom: 8px;
-  width: 100%
+  width: 100%;
+  text-align: center;
 
 }
 
@@ -80,24 +81,44 @@ ul li {
 
 .first {
   flex: 1;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.first h1 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.first h3 {
+  text-align: left;
 }
 
 .second {
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding-left: 16px;
 }
 
 .orientation {
   display: flex;
+  height: 33%;
 }
 
 .our-campus {
   display: flex;
+  height: 33%;
 }
 
 .guest {
   display: flex;
+  background-color: lightgray;
+}
+
+.guest img {
+  height: auto;
+
 }
 
 /* courses */
@@ -107,44 +128,58 @@ padding-bottom: 32px;
 background-color: lightgray;
 padding-left: 72px;
 width: 100%;
-
-
 }
 
 .title {
-
+text-align: center;
 }
 
 .courses {
   display: flex;
   flex-wrap: wrap;
-
-
 }
 
 .course {
   width: 30%;
   background-color: white;
+  margin: 16px;
+
+}
+
+.course img {
+  width: 100%
+}
+
+.course h1 {
+  padding-top: 16px;
+}
+
+.course h2 {
+  padding-top: 8px;
+}
+.course h1,h2 {
+  padding-left: 16px;
 }
 
 
 /*thesis*/
 .thesis-container {
   display: flex;
+  margin-left: 24px;
 
 }
 .left-column {
-  width: 50%;
+  width: 60%;
 }
 
 
 .left-column video {
-  max-width: 90%;
+  max-width: 95%;
 }
 
 
 .left-column p {
-  max-width: 90%;
+  max-width: 95%;
 }
 
 .right-column {
@@ -157,35 +192,37 @@ width: 100%;
 .fisma {
   display: flex;
   padding: 16px;
+  background-color: lightgray;
+  align-items: center;
 }
 
-.fisma img {
-
+.right-column img {
+  margin: 16px;
 }
 
 .fisma-txt {
   padding-left: 16px;
+
 }
 
 .newyork {
   display: flex;
   padding: 16px;
+  align-items: center;
 }
 
 .newyork-txt {
   padding-left: 16px;
+
 }
 
 /* footer */
 .footer-container {
   display: flex;
   margin: 16px 24px;
-}
-
-.terms {
-
+  justify-content: space-between;
 }
 
 .terms span {
-
+padding-left: 15px;
 }
