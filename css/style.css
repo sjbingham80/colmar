@@ -1,9 +1,12 @@
 /* Universal Styles */
 
-/* header */
-header {
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 
 }
+
+/* header */
 
 .header-container {
   display: flex;
@@ -11,12 +14,20 @@ header {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  background-color: #8ca3a3;
+  color: white;
+}
 
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-  height: 32px;
-  width: 32px;
+  height: 60px;
+  width: auto;
+  padding-left: 24px;
+
 }
 
 .logo span{
@@ -59,14 +70,21 @@ ul li {
   flex-wrap: wrap;
 }
 
+.banner-container h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #484f4f;
+}
+
 .button {
-  background-color: dimgray;
+  background-color: #563f46;
   color: white;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 100%;
   text-align: center;
-
+  width: 50%;
+  margin-top: 32px;
 }
 
 /*about*/
@@ -74,50 +92,69 @@ ul li {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 24px;
   width: 100%;
 
 }
 
 .first {
-  flex: 1;
-  padding-right: 24px;
+  width: 60%;
+  padding-right: 12px;
   text-align: center;
+  color: #484f4f;
+
+
 }
 
 .first h1 {
   margin-top: 32px;
   margin-bottom: 24px;
+  font-size: 3rem;
 }
+
 
 .first h3 {
   text-align: left;
+  padding-left: 12px;
 }
 
 .second {
-  flex: 1;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  padding-left: 16px;
+  background-color: #484f4f;
 }
 
 .orientation {
   display: flex;
   height: 33%;
+  color: white;
+  border-bottom: 2px solid white;
+
 }
 
 .our-campus {
   display: flex;
-  height: 33%;
+  height: 34%;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 .guest {
   display: flex;
   background-color: lightgray;
+  color: #484f4f;
 }
 
 .guest img {
   height: auto;
+}
+
+.second .txt {
+  text-align: left;
+  padding: 30px;
+}
+
+.second h3 {
 
 }
 
@@ -126,23 +163,30 @@ ul li {
 padding-top: 32px;
 padding-bottom: 32px;
 background-color: lightgray;
-padding-left: 72px;
 width: 100%;
+}
+
+.course-container .title {
+  color: #484f4f;
 }
 
 .title {
 text-align: center;
+font-size: 2rem;
 }
 
 .courses {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .course {
   width: 30%;
-  background-color: white;
   margin: 16px;
+  background-color: #8ca3a3;
+  padding: 12px;
 
 }
 
@@ -152,17 +196,25 @@ text-align: center;
 
 .course h1 {
   padding-top: 16px;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .course h2 {
   padding-top: 8px;
+  font-size: 1rem;
 }
 .course h1,h2 {
   padding-left: 16px;
+  color: white;
 }
 
 
 /*thesis*/
+.title {
+  color: #484f4f;
+}
+
 .thesis-container {
   display: flex;
   margin-left: 24px;
@@ -170,6 +222,7 @@ text-align: center;
 }
 .left-column {
   width: 60%;
+  color: #484f4f;
 }
 
 
@@ -194,6 +247,8 @@ text-align: center;
   padding: 16px;
   background-color: lightgray;
   align-items: center;
+  color: #484f4f;
+  border-bottom: 2px solid white;
 }
 
 .right-column img {
@@ -209,6 +264,9 @@ text-align: center;
   display: flex;
   padding: 16px;
   align-items: center;
+  background-color: #563f46;
+  color: white;
+
 }
 
 .newyork-txt {
@@ -221,6 +279,8 @@ text-align: center;
   display: flex;
   margin: 16px 24px;
   justify-content: space-between;
+  background-color: #8ca3a3;
+  height: 30px;
 }
 
 .terms span {
