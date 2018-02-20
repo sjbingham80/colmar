@@ -54,12 +54,36 @@ ul li {
   }
 }
 
+@media only screen and (max-width: 480px )  {
+
+.header-container {
+  height: 64px;
+  }
+
+  header .mobile {
+    display: flex;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .logo span {
+    display: none;
+  }
+}
+
 
 /*banner  */
 .banner-container {
   display: flex;
   padding: 32px 24px;
   background-color: lightgray;
+}
+
+.banner-container img {
+  width: 100%;
+  height: auto;
 }
 
 .banner-container .text {
@@ -87,6 +111,19 @@ ul li {
   margin-top: 32px;
 }
 
+@media only screen and (max-width: 480px )  {
+
+.banner-container{
+  display: block;
+}
+
+.banner-img img {
+  width: 100%;
+  height: auto;
+}
+
+}
+
 /*about*/
 .about-container {
   display: flex;
@@ -101,8 +138,11 @@ ul li {
   padding-right: 12px;
   text-align: center;
   color: #484f4f;
+}
 
-
+.first img {
+  width: 100%;
+  height: auto;
 }
 
 .first h1 {
@@ -127,25 +167,39 @@ ul li {
 .orientation {
   display: flex;
   height: 33%;
+  width: auto;
   color: white;
   border-bottom: 2px solid white;
+}
 
+.orientation .img img {
+  width: 100%;
+  height: auto;
 }
 
 .our-campus {
   display: flex;
   height: 34%;
+  width: auto;
   color: white;
   border-bottom: 2px solid white;
+}
+
+.our-campus .img img {
+  width: 100%;
+  height: auto;
 }
 
 .guest {
   display: flex;
   background-color: lightgray;
   color: #484f4f;
+  height: 33%;
+  width: auto;
 }
 
-.guest img {
+.guest .img img {
+  width: 100%;
   height: auto;
 }
 
@@ -154,8 +208,15 @@ ul li {
   padding: 30px;
 }
 
-.second h3 {
+@media only screen and (max-width: 480px )  {
 
+.first {
+  display: none;
+}
+
+.second {
+  width: 100%;
+}
 }
 
 /* courses */
@@ -207,6 +268,25 @@ font-size: 2rem;
 .course h1,h2 {
   padding-left: 16px;
   color: white;
+}
+
+@media only screen and (max-width: 480px )  {
+
+.courses {
+  display: block;
+}
+
+.courses h2 {
+  display: none;
+}
+
+.courses img {
+  display: none;
+}
+
+.course {
+  width: 85%;
+}
 }
 
 
@@ -274,6 +354,27 @@ font-size: 2rem;
 
 }
 
+@media only screen and (max-width: 480px )  {
+
+.right-column {
+  display: none;
+}
+
+.left-column {
+  width: 100%;
+}
+
+.left-column video {
+  max-width: 100%;
+}
+
+.left-column h1,p {
+  display: none;
+
+}
+
+}
+
 /* footer */
 .footer-container {
   display: flex;
@@ -285,4 +386,14 @@ font-size: 2rem;
 
 .terms span {
 padding-left: 15px;
+}
+
+@media only screen and (max-width: 480px )  {
+.terms {
+  display: none;
+}
+
+.footer-container {
+  width: 100%;
+}
 }
