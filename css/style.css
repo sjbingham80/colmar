@@ -62,6 +62,8 @@ ul li {
 
   header .mobile {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
   }
 
   nav {
@@ -122,6 +124,19 @@ ul li {
   height: auto;
 }
 
+.banner-container h1 {
+  font-size: 2rem;
+}
+
+.banner-container h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.button {
+  margin-top: 24px;
+}
+
 }
 
 /*about*/
@@ -173,8 +188,8 @@ ul li {
 }
 
 .orientation .img img {
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
 }
 
 .our-campus {
@@ -186,8 +201,8 @@ ul li {
 }
 
 .our-campus .img img {
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
 }
 
 .guest {
@@ -199,8 +214,8 @@ ul li {
 }
 
 .guest .img img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .second .txt {
@@ -217,6 +232,42 @@ ul li {
 .second {
   width: 100%;
 }
+
+.orientation {
+  flex-direction: column;
+  align-items: center;
+}
+
+.orientation .img img{
+
+}
+
+.our-campus {
+  flex-direction: column;
+  align-items: center;
+}
+
+.guest {
+  flex-direction: column;
+  align-items: center;
+  background-color: #484f4f;
+  color: white;
+}
+
+.txt h1 {
+  font-size: 2rem;
+}
+
+.txt {
+  height: 30%;
+  margin-top: -40px;
+}
+
+.our-campus .txt {
+  padding-bottom: 0px;
+}
+
+
 }
 
 /* courses */
@@ -286,6 +337,8 @@ font-size: 2rem;
 
 .course {
   width: 85%;
+  padding: 2px;
+
 }
 }
 
@@ -368,9 +421,16 @@ font-size: 2rem;
   max-width: 100%;
 }
 
-.left-column h1,p {
+.left-column h1 {
   display: none;
+}
 
+.left-column p {
+  display: none;
+}
+
+.title {
+  font-size: 1.25rem;
 }
 
 }
@@ -382,6 +442,7 @@ font-size: 2rem;
   justify-content: space-between;
   background-color: #8ca3a3;
   height: 30px;
+  align-items: center;
 }
 
 .terms span {
@@ -395,5 +456,9 @@ padding-left: 15px;
 
 .footer-container {
   width: 100%;
+}
+
+.copyright {
+  font-size: .75rem;
 }
 }
