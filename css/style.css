@@ -147,6 +147,7 @@ ul li {
   padding-bottom: 32px;
   width: 100%;
 
+
 }
 
 .first {
@@ -175,9 +176,9 @@ ul li {
 
 .second {
   width: 40%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #484f4f;
   flex-shrink: 1;
 }
 
@@ -185,8 +186,11 @@ ul li {
   display: flex;
   min-height: 168px;
   width: auto;
+  background-color: #484f4f;
   color: white;
-  border-bottom: 2px solid white;
+  border-left: 2px solid #484f4f;
+  border-top: 2px solid #484f4f;
+  border-right: 2px solid #484f4f;
   align-items: center;
 
 }
@@ -202,7 +206,7 @@ ul li {
   width: auto;
   color: #484f4f;
   background-color: lightgray;
-  border-bottom: 2px solid white;
+  border: 2px solid #484f4f;
   min-height: 168px;
   align-items: center;
 }
@@ -215,10 +219,13 @@ ul li {
 
 .guest {
   display: flex;
-  color: white;
+  color: #484f4f;
   min-height: 168px;
   width: auto;
   align-items: center;
+  border-left: 2px solid #484f4f;
+  border-bottom: 2px solid #484f4f;
+  border-right: 2px solid #484f4f;
 
 }
 
@@ -281,15 +288,18 @@ ul li {
 
 .orientation {
   display: block;
+  border: none;
 
 }
 
 .our-campus {
   display: block;
+  border: none;
 }
 
 .guest {
   display: block;
+  border: none;
 }
 
 .txt h1 {
